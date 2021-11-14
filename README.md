@@ -1,11 +1,19 @@
 # WebStreamViewerInterestMLDataSet
-A  machine learning dataset that highlights screens and screen regions on the web streams that of interest to the viewer 
+A  machine learning dataset that highlights screens and screen regions on the web streams that of interest to the
 
+## Data
 
-## Scripts to create a sample data from selected streams
+Data of the data set is a screenshots taken from various streams from various popular web streaming services such as YouTube, Vimeo, etc, in various uniformly random time stamps of random popular streams.
 
-### Cherno - Fullscreen UI vs Human face
+## Labeling
 
-### Lords of Limited - A fragment of UI like element with art vs 2 human faces
+Each frame is labeled with:
 
-## User contributed data
+ * *bIsAD* - is this frame AD?
+ * *bHasHumans* - are humans in frame?
+ * *HumanAmount* - how many humans in frame?
+ * *bHasUI* - had UI component
+ * *bHasFullscreenUI* - frame is full screen UI
+ * *bHasOverlays* - has overlays on top of frame
+ * *OverlaysAmount* - overlays amount
+
